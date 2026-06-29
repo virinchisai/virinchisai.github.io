@@ -237,7 +237,7 @@ h3 {
   transform: translateY(-2px);
 }
 
-.recruiter-strip {
+.profile-strip {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
@@ -245,7 +245,7 @@ h3 {
   margin: -50px auto 0;
 }
 
-.recruiter-strip div {
+.profile-strip div {
   position: relative;
   overflow: hidden;
   padding: 18px;
@@ -256,7 +256,7 @@ h3 {
   backdrop-filter: blur(18px);
 }
 
-.recruiter-strip div::before {
+.profile-strip div::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -265,7 +265,7 @@ h3 {
   animation: scan 6s linear infinite;
 }
 
-.recruiter-strip span {
+.profile-strip span {
   display: block;
   margin-bottom: 7px;
   color: var(--cyan);
@@ -274,7 +274,7 @@ h3 {
   text-transform: uppercase;
 }
 
-.recruiter-strip strong {
+.profile-strip strong {
   position: relative;
   display: block;
 }
@@ -366,7 +366,7 @@ h3 {
   gap: 22px;
 }
 
-.recruiter-fit {
+.build-fit {
   padding-top: 64px;
 }
 
@@ -646,7 +646,7 @@ footer a {
   .project-grid,
   .focus-grid,
   .contact-section,
-  .recruiter-strip,
+  .profile-strip,
   .fit-grid {
     grid-template-columns: 1fr;
   }
@@ -663,7 +663,7 @@ footer a {
     gap: 14px;
   }
 
-  .recruiter-strip {
+  .profile-strip {
     margin-top: 0;
   }
 }
